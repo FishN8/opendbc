@@ -1,0 +1,702 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: METER TRANSMISSION ENGINE VSA
+
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ CAN_0A0_SUM : 59|4@0+ (1,0) [0|15] ""  VSA,METER,ENGINE,TRANSMISSION
+ SG_ CAN_0A0_ALIVE_COUNTER : 63|2@0+ (1,0) [0|3] ""  VSA,METER,ENGINE,TRANSMISSION
+ SG_ CAN_TARGET_CALIPER_PRESSURE_FR : 47|8@0+ (50,0) [0|12750] "KPa"  VSA
+ SG_ CAN_ACC_DISPLAY_SPEED : 39|8@0+ (1,0) [0|255] ""  METER
+ SG_ CAN_ACC_VER : 27|4@0+ (1,0) [0|15] ""  VSA,METER,ENGINE,TRANSMISSION
+ SG_ CAN_ACC_SHIFT_REQUEST : 29|2@0+ (1,0) [0|3] ""  ENGINE
+ SG_ CAN_ACC_MSB_REQUEST : 31|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ CAN_ACC_STATUS : 19|4@0+ (1,0) [0|15] ""  VSA,ENGINE,TRANSMISSION
+ SG_ CAN_ACC_REQUEST : 21|2@0+ (1,0) [0|3] ""  ENGINE
+ SG_ CAN_ACC_READY : 22|1@0+ (1,0) [0|1] ""  ENGINE
+ SG_ CAN_ACC_VJUMP : 23|1@0+ (1,0) [0|1] ""  ENGINE
+ SG_ CAN_TARGET_MOTOR_LEVEL : 10|3@0+ (1,0) [0|7] ""  VSA
+ SG_ CAN_ACC_MSB_REQUEST2 : 14|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ CAN_ACC_MSB_REQUEST3 : 15|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ CAN_TARGET_CALIPER_PRESSURE_FL : 7|8@0+ (50,0) [0|12750] "KPa"  VSA
+ SG_ CAN_ACC_CHECKSUM : 59|4@0+ (1,0) [0|15] ""  METER,ENGINE
+ SG_ CAN_ACC_LAMP_STATUS : 61|2@0+ (1,0) [0|3] ""  METER
+ SG_ CAN_ACC_ALIVECOUNTER : 63|2@0+ (1,0) [0|3] ""  METER,ENGINE
+ SG_ CAN_ACC_INFORMATION2 : 50|3@0+ (1,0) [0|7] ""  METER
+ SG_ CAN_ACC_INFORMATION3 : 54|3@0+ (1,0) [0|7] ""  METER
+ SG_ CAN_ACC_INFORMATION1 : 47|8@0+ (1,0) [0|255] ""  METER
+ SG_ CAN_CMS_INFORMATION1 : 38|7@0+ (1,0) [0|127] ""  METER
+ SG_ CAN_ACC_SYSTEM_CHECK_MODE : 39|1@0+ (1,0) [0|1] ""  METER
+ SG_ CAN_ACC_TARGET_ACCELERATION : 23|8@0+ (0.5,0) [0|127.5] "%"  ENGINE
+ SG_ CAN_ACC_TARGET_SPEED : 7|16@0+ (0.01,0) [0|655.35] "km/h"  ENGINE
+ SG_ CAN_CHECKSUM_2E7H : 59|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ CAN_AVERAGE_FUEL_A_RESET : 61|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ CAN_ALIVE_COUNTER_2E7H : 63|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ CAN_AVERAGE_FUEL_A_LO : 15|8@0+ (0.1,0) [0|25.5] "MPG、km/L、L/100km" Vector__XXX
+ SG_ SEAT_BELT_SWITCH_B : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ CAN_AVERAGE_FUEL_A_STATUS : 5|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ CAN_AVERAGE_FUEL_A_HI : 7|2@0+ (0.1,0) [0|0.3] "MPG、km/L、L/100km" Vector__XXX
+ SG_ CAN_CHECKSUM_40CH : 59|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ CAN_VIN_BYTE7 : 55|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ CAN_VIN_BYTE6 : 47|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ CAN_VIN_BYTE5 : 39|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ CAN_VIN_BYTE4 : 31|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ CAN_VIN_BYTE3 : 23|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ CAN_VIN_BYTE2 : 15|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ CAN_VINDATA_COUNTER : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ CAN_CHECKSUM_405H : 59|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ CAN_ALIVE_COUNTER_405H : 63|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ CAN_WARNING_LAMP_STATUS7 : 55|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ METER_CHECKSUM_309H : 59|4@0+ (1,0) [0|15] ""  ENGINE
+ SG_ METER_DIGITAL_SPEED_UNIT : 61|1@0+ (1,0) [0|1] ""  ENGINE
+ SG_ METER_ALIVE_COUNTER_309H : 63|2@0+ (1,0) [0|3] ""  ENGINE
+ SG_ METER_DIGITAL_SPEED_DISPLAY : 31|8@0+ (1,0) [0|255] "km/h or mph"  ENGINE
+ SG_ METER_DIGITAL_SPEED_HYSTERESIS : 23|8@0+ (1,0) [0|255] "km/h or mph"  ENGINE
+ SG_ METER_DIGITAL_SPEED_TARGET : 7|16@0+ (0.01,0) [0|655.35] "km/h"  ENGINE
+ SG_ CAN_CHECKSUM_191H : 59|4@0+ (1,0) [0|15] ""  VSA,METER
+ SG_ CAN_ALIVE_COUNTER_191H : 63|2@0+ (1,0) [0|3] ""  VSA,METER
+ SG_ CAN_CVT_VER : 51|4@0+ (1,0) [0|15] ""  VSA,METER
+ SG_ CAN_CVT_RATIO_TARGET : 47|8@0+ (0.015625,0) [0|3.984375] ""  VSA
+ SG_ CAN_CVT_RATIO_INFO : 39|8@0+ (0.015625,0) [0|3.984375] ""  VSA
+ SG_ CAN_GEAR_POSITION_SELECTED_CVT : 31|8@0+ (1,0) [0|255] ""  VSA,METER
+ SG_ CAN_SMODE_SWITCH_STATUS : 19|1@0+ (1,0) [0|1] ""  METER
+ SG_ CAN_TRANSMISSION_MALFUNCTION : 20|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ CAN_CVT_FAILURE_FOR_VSA : 22|1@0+ (1,0) [0|1] ""  VSA
+ SG_ CAN_TRANSMISSION_FAULT_D_IND_CVT : 23|1@0+ (1,0) [0|1] ""  METER
+ SG_ CAN_GEAR_POSITION_INDICATE_CVT : 14|4@0+ (1,0) [0|15] ""  VSA,METER
+ SG_ CAN_ECO_MODE : 15|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ CAN_CC_CVT_SFTMAP_NO : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 548 ENG_0x224: 8 ENGINE
+ SG_ CHECKSUM_224H : 59|4@0+ (1,0) [0|15] ""  METER
+ SG_ PCM_REWRITE_START : 60|1@0+ (1,0) [0|1] ""  METER
+ SG_ ALIVE_COUNTER_224H : 63|2@0+ (1,0) [0|3] ""  VSA,METER
+ SG_ SCS_STATUS : 48|1@0+ (1,0) [0|1] ""  VSA,METER
+ SG_ ACGL_STATUS : 49|1@0+ (1,0) [0|1] ""  METER
+ SG_ ENG_ECO_STATUS : 50|1@0+ (1,0) [0|1] ""  METER
+ SG_ ECON_LAMP : 51|1@0+ (1,0) [0|1] ""  METER
+ SG_ ENGINE_VER : 55|4@0+ (1,0) [0|15] ""  VSA,METER
+ SG_ CRUISE_CAL_GRADE : 47|8@0+ (0.125,0) [0|31.875] "%" Vector__XXX
+ SG_ CRUISE_MEMORY_SPEED : 39|8@0+ (1,0) [0|255] "km/h" Vector__XXX
+ SG_ FUEL_USED : 23|16@0+ (0.1,0) [0|6553.5] "cm3"  METER
+ SG_ ATMOSPHERIC_PRESSURE : 15|8@0+ (2.685,0) [0|684.675] "mmHg"  VSA
+ SG_ ENG_PD_PRESS : 7|8@0+ (16,0) [0|4080] "kPa"  METER
+
+BO_ 500 METER_0x1F4: 8 METER
+ SG_ CHECKSUM_1F4H : 59|4@0+ (1,0) [0|15] ""  ENGINE,TRANSMISSION
+ SG_ ALIVE_COUNTER_1F4H : 63|2@0+ (1,0) [0|3] ""  ENGINE,TRANSMISSION
+ SG_ COMP_TORQUE : 55|8@0+ (0.1,0) [0|25.5] "Nm"  ENGINE
+ SG_ METER_ODO_DATA : 31|24@0+ (1,0) [0|16777215] "km"  ENGINE,TRANSMISSION
+ SG_ B_CAN_FAULT_CODE : 23|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ ILLUMI_CONTROL_STEP : 13|6@0+ (1,0) [0|63] "STEP" Vector__XXX
+ SG_ THEATER_MODE : 14|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ DIMMER_CANCEL : 15|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ FUEL_WARN : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ABS_WARN : 1|1@0+ (1,0) [0|1] ""  ENGINE,TRANSMISSION
+ SG_ A_C_TEMP_STATUS : 2|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ WIPER_STATUS : 4|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ TURN_SIGNAL_STATUS : 6|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ IDLE_PERM : 7|1@0+ (1,0) [0|1] ""  ENGINE
+
+BO_ 448 VSA_0x1CO: 8 VSA
+ SG_ CHECKSUM_1C0H : 59|4@0+ (1,0) [0|15] ""  ENGINE,TRANSMISSION
+ SG_ RR_WHEEL_SPEED : 42|15@0+ (0.01,0) [0|327.67] "Km/h"  ENGINE,TRANSMISSION
+ SG_ RL_WHEEL_SPEED : 25|15@0+ (0.01,0) [0|327.67] "Km/h"  ENGINE,TRANSMISSION
+ SG_ FR_WHEEL_SPEED : 8|15@0+ (0.01,0) [0|327.67] "Km/h"  TRANSMISSION
+ SG_ FL_WHEEL_SPEED : 7|15@0+ (0.01,0) [0|327.67] "Km/h"  TRANSMISSION
+
+BO_ 392 TRANS_0x188: 8 TRANSMISSION
+ SG_ CHECKSUM_188H : 59|4@0+ (1,0) [0|15] ""  VSA,METER
+ SG_ ALIVE_COUNTER_188H : 63|2@0+ (1,0) [0|3] ""  VSA,METER
+ SG_ EAT_VER : 51|4@0+ (1,0) [0|15] ""  VSA,METER
+ SG_ GEAR_POSITION_SELECTED : 31|8@0+ (1,0) [0|255] ""  VSA,METER
+ SG_ ODOFF_MODE_SWITCH_STATAUS : 16|1@0+ (1,0) [0|1] ""  METER
+ SG_ AT_AC_STATUS : 17|1@0+ (1,0) [0|1] ""  METER
+ SG_ SMODE_SWITCH_STATUS : 19|1@0+ (1,0) [0|1] ""  METER
+ SG_ TRANSMISSION_MALFUNCTION : 55|1@0+ (1,0) [0|1] ""  METER
+ SG_ EAT_FAILURE_FOR_VSA : 22|1@0+ (1,0) [0|1] ""  VSA
+ SG_ TRANSMISSION_FAULT_D_IND : 23|1@0+ (1,0) [0|1] ""  METER
+ SG_ GEAR_POSITION_TARGET : 10|3@0+ (1,0) [0|7] ""  VSA
+ SG_ GEAR_POSITION_INDICATE : 13|3@0+ (1,0) [0|7] ""  METER
+ SG_ SNOW_MODE_SWITCH_STATUS : 14|1@0+ (1,0) [0|1] ""  METER
+ SG_ LOW_HOLD_SWITCH_STATUS : 15|1@0+ (1,0) [0|1] ""  METER
+ SG_ GEAR_POSITION_ACTUAL : 3|4@0+ (1,0) [0|15] ""  VSA
+
+BO_ 300 ENG_0x12C: 8 ENGINE
+ SG_ CHECKSUM_12CH : 59|4@0+ (1,0) [0|15] ""  VSA,METER
+ SG_ ALIVE_COUNTER_12CH : 63|2@0+ (1,0) [0|3] ""  VSA,METER
+ SG_ BRAKE_PEDAL_PRESSED : 48|1@0+ (1,0) [0|1] ""  VSA
+ SG_ CRUISE_CANCEL_REASON : 49|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ CRUISE_STATUS : 51|2@0+ (1,0) [0|3] ""  VSA,METER
+ SG_ ENGINE_FAULT_CODE_MIL_STATUS : 52|1@0+ (1,0) [0|1] ""  METER
+ SG_ OIL_PRESURE_LOW : 53|1@0+ (1,0) [0|1] ""  METER
+ SG_ OBD2_CLEAR_FAULT_CODES : 54|1@0+ (1,0) [0|1] ""  VSA
+ SG_ PEDAL_STATUS : 55|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ENGINE_SPEED : 39|16@0+ (1,0) [0|65535] "rpm"  VSA,METER
+ SG_ CRUISE_SPEED_REVISION : 31|8@0+ (0.1,0) [0|25.5] "%" Vector__XXX
+ SG_ THROTTLE_INFORMATION : 19|4@0+ (1,0) [0|15] ""  METER
+ SG_ ENGINE_INTAKE_AIR_TEMPERATURE : 15|8@0+ (1,0) [0|255] "℃"  VSA
+ SG_ ENGINE_COOLANT_TEMPERATURE : 7|8@0+ (1,0) [0|255] "℃"  VSA,METER
+
+BO_ 212 METER_0x0D4: 8 METER
+ SG_ CHECKSUM_0D4H : 59|4@0+ (1,0) [0|15] ""  VSA,ENGINE,TRANSMISSION
+ SG_ ECON_AC : 60|1@0+ (1,0) [0|1] ""  ENGINE
+ SG_ ALIVE_COUNTER_0D4H : 63|2@0+ (1,0) [0|3] ""  VSA,ENGINE,TRANSMISSION
+ SG_ METER_DISPLAY_SPEED : 47|16@0+ (0.01,0) [0|655.35] "km/h" Vector__XXX
+ SG_ FUEL_LEVEL_RAW : 39|8@0+ (0.01953125,0) [0|4.98046875] "V"  ENGINE
+ SG_ FUEL_LEVEL : 31|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ HIDS_WARN : 16|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ CVRS_WARN : 17|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ AC_REQUEST : 19|1@0+ (1,0) [0|1] ""  ENGINE,TRANSMISSION
+ SG_ ECO_SW : 20|1@0+ (1,0) [0|1] ""  ENGINE,TRANSMISSION
+ SG_ FOG_SWITCH_STATUS : 21|1@0+ (1,0) [0|1] ""  ENGINE
+ SG_ A_C_PRESS_SW : 22|1@0+ (1,0) [0|1] ""  ENGINE,TRANSMISSION
+ SG_ A_C_DEC_OK : 23|1@0+ (1,0) [0|1] ""  ENGINE
+ SG_ AUTO_CRUISE_SWITCH_STATUS2 : 11|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ METER_VER : 15|4@0+ (1,0) [0|15] ""  VSA,ENGINE,TRANSMISSION
+ SG_ LIGHT_STATUS : 1|2@0+ (1,0) [0|3] ""  ENGINE
+ SG_ VSA_SWITCH_STATUS : 4|3@0+ (1,0) [0|7] ""  VSA
+ SG_ AUTO_CRUISE_SWITCH_STATUS1 : 7|3@0+ (1,0) [0|7] ""  ENGINE
+
+BO_ 200 TRANS_0xC8: 8 TRANSMISSION
+ SG_ CHECKSUM_0C8H : 59|4@0+ (1,0) [0|15] ""  METER
+ SG_ T_M_CPU_REWRITE_FLAG : 61|1@0+ (1,0) [0|1] ""  METER,ENGINE
+ SG_ ALIVE_COUNTER_0C8H : 63|2@0+ (1,0) [0|3] ""  METER
+ SG_ REFERENCE_DISTANCE_TRAVELLED : 55|8@0+ (0.01,0) [0|2.55] "Km"  METER
+ SG_ TRANSMISSION_SPEED : 39|16@0+ (0.01,0) [0|655.35] "km/h"  METER
+ SG_ TRANSMISSION_SPEED_VNC : 7|16@0+ (0.01,0) [0|655.35] "km/h" Vector__XXX
+
+BO_ 166 ENG_0x0A6: 8 ENGINE
+ SG_ CHECKSUM_0A6H : 59|4@0+ (1,0) [0|15] ""  VSA
+ SG_ ALIVE_COUNTER_0A6H : 63|2@0+ (1,0) [0|3] ""  VSA
+ SG_ CRUISE_CAL_ENGBRK2 : 55|8@0+ (0.03,0) [0|7.65] "m/s^2" Vector__XXX
+ SG_ CRUISE_CAL_ENGBRK : 47|8@0+ (0.03,0) [0|7.65] "m/s^2" Vector__XXX
+ SG_ TARGET_THROTTLE : 39|8@0+ (0.4,0) [0|102] "deg"  VSA
+ SG_ THROTTLE_POSITION : 31|8@0+ (0.4,0) [0|102] "deg"  VSA
+ SG_ DRIVER_TARGET_THROTTLE : 23|8@0+ (0.4,0) [0|102] "deg"  VSA
+ SG_ VSA_ACKNOWLEDGE2 : 10|3@0+ (1,0) [0|7] ""  VSA
+ SG_ RECEIVE_ERROR_064 : 14|1@0+ (1,0) [0|1] ""  VSA
+ SG_ VSA_ACKNOWLEDGE1 : 3|4@0+ (1,0) [0|15] ""  VSA
+ SG_ COMPRESSOR_TRQ_UP : 5|1@0+ (1,0) [0|1] ""  METER
+ SG_ COMPRESSOR_TRQ_DOWN : 6|1@0+ (1,0) [0|1] ""  METER
+ SG_ COMPRESSOR_CLUTCH_STATUS : 7|1@0+ (1,0) [0|1] ""  METER
+
+BO_ 144 VSA_0x90: 8 VSA
+ SG_ CHECKSUM_090H : 59|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ WS_PULSE_CAPUTURED : 60|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ALIVE_COUNTER_090H : 63|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ ACC_ACKNOWLEDGE : 43|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ VSA_CONTROL_MODE_CVT : 45|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ VSA_REQUEST_CVT : 47|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ VSA_STATUS2 : 39|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ VSA_STEERING_ANGLE : 23|16@0+ (1,0) [0|65535] "deg" Vector__XXX
+ SG_ CURRENT_YAWRATE_LO : 9|2@0+ (0.244140625,0) [0|0.732421875] "deg/sec" Vector__XXX
+ SG_ CURRENT_YAWRATE_HI : 7|8@0+ (0.244140625,0) [0|62.255859375] "deg/sec" Vector__XXX
+
+BO_ 100 VSA_0x64: 8 VSA
+ SG_ CHECKSUM_064H : 59|4@0+ (1,0) [0|15] ""  METER,ENGINE,TRANSMISSION
+ SG_ VSA_STATUS4 : 61|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ ALIVE_COUNTER_064H : 63|2@0+ (1,0) [0|3] ""  METER,ENGINE,TRANSMISSION
+ SG_ MASTER_CYLINDER_PRESSURE : 47|16@0+ (23.96,0) [0|1570218.6] "kPa"  ENGINE
+ SG_ VSA_VER : 35|4@0+ (1,0) [0|15] ""  METER,ENGINE,TRANSMISSION
+ SG_ VSA_SHIFT_REQUEST : 26|3@0+ (1,0) [0|7] ""  TRANSMISSION
+ SG_ VSA_LAMP_STATUS : 31|4@0+ (1,0) [0|15] ""  METER
+ SG_ VSA_STATUS1 : 23|8@0+ (1,0) [0|255] ""  ENGINE
+ SG_ TORQUE_DOWN_REQUEST_FUELCUT : 11|4@0+ (1,0) [0|15] ""  ENGINE
+ SG_ VSA_TORQUE_CONTROL_MODE : 13|2@0+ (1,0) [0|3] ""  ENGINE
+ SG_ VSA_REQUEST_THROTTLE : 7|10@0+ (0.1,0) [0|102.3] "deg"  ENGINE
+
+
+
+BA_DEF_ SG_  "ValueTableE" STRING ;
+BA_DEF_ SG_  "CommentRxE" STRING ;
+BA_DEF_ SG_  "CommentRxJ" STRING ;
+BA_DEF_ SG_  "CommentTxE" STRING ;
+BA_DEF_ SG_  "CommentTxJ" STRING ;
+BA_DEF_ SG_  "DescriptionE" STRING ;
+BA_DEF_ SG_  "DescriptionJ" STRING ;
+BA_DEF_ SG_  "GenSigSendType" ENUM  "Cyclic","Event","Req/Res","Combined","MULTI","COM/ACK";
+BA_DEF_ SG_  "GenSigStartValue" INT 0 3000;
+BA_DEF_ SG_  "GenSigInactiveValue" INT 0 3000;
+BA_DEF_ BO_  "PS" ENUM  "+B","ACC","IG1","IG2","*","vector_leerstring";
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "Cyclic","Event","Req/Res","Combined","MULTI","COM/ACK";
+BA_DEF_ BO_  "PF" HEX 0 65535;
+BA_DEF_ BO_  "PRI" INT 0 7;
+BA_DEF_ BO_  "FrameType" INT 0 2;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 3000;
+BA_DEF_  "DBName" STRING ;
+BA_DEF_DEF_  "ValueTableE" "";
+BA_DEF_DEF_  "CommentRxE" "";
+BA_DEF_DEF_  "CommentRxJ" "";
+BA_DEF_DEF_  "CommentTxE" "";
+BA_DEF_DEF_  "CommentTxJ" "";
+BA_DEF_DEF_  "DescriptionE" "";
+BA_DEF_DEF_  "DescriptionJ" "";
+BA_DEF_DEF_  "GenSigSendType" "Cyclic";
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_DEF_DEF_  "GenSigInactiveValue" 0;
+BA_DEF_DEF_  "PS" "";
+BA_DEF_DEF_  "GenMsgSendType" "Cyclic";
+BA_DEF_DEF_  "PF" 0;
+BA_DEF_DEF_  "PRI" 0;
+BA_DEF_DEF_  "FrameType" 2;
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "DBName" "";
+BA_ "DBName" "Honda";
+BA_ "PS" BO_ 548 5;
+BA_ "GenMsgCycleTime" BO_ 548 10;
+BA_ "GenMsgSendType" BO_ 548 0;
+BA_ "CommentTxJ" SG_ 548 CHECKSUM_224H "ID 224hの8byte情報中の全16nibbleの合計を
+0hとするSUM値";
+BA_ "GenSigStartValue" SG_ 548 CHECKSUM_224H 0;
+BA_ "CommentTxJ" SG_ 548 PCM_REWRITE_START "bit 4:PCM市場書換開始";
+BA_ "GenSigStartValue" SG_ 548 PCM_REWRITE_START 0;
+BA_ "CommentTxJ" SG_ 548 ALIVE_COUNTER_224H "CAN DATA更新カウンタ (224h)";
+BA_ "GenSigStartValue" SG_ 548 ALIVE_COUNTER_224H 0;
+BA_ "CommentTxJ" SG_ 548 SCS_STATUS "bit0 1:SCSｽｲｯﾁON";
+BA_ "GenSigStartValue" SG_ 548 SCS_STATUS 0;
+BA_ "CommentTxJ" SG_ 548 ACGL_STATUS "bit1 1:ACGLｽｲｯﾁON (CHARGE LAMP ON:非発電)";
+BA_ "GenSigStartValue" SG_ 548 ACGL_STATUS 0;
+BA_ "CommentTxJ" SG_ 548 ENG_ECO_STATUS "bit1 1:ECO表示許可";
+BA_ "GenSigStartValue" SG_ 548 ENG_ECO_STATUS 0;
+BA_ "CommentTxJ" SG_ 548 ECON_LAMP "bit1 1:ECON表示(制御)許可";
+BA_ "GenSigStartValue" SG_ 548 ECON_LAMP 0;
+BA_ "CommentTxJ" SG_ 548 ENGINE_VER "CANｿﾌﾄﾊﾞｰｼﾞｮﾝ情報を4BITで表現する";
+BA_ "GenSigStartValue" SG_ 548 ENGINE_VER 0;
+BA_ "CommentTxJ" SG_ 548 CRUISE_CAL_GRADE "ｵｰﾄｸﾙｰｽﾞ勾配推定値";
+BA_ "GenSigStartValue" SG_ 548 CRUISE_CAL_GRADE 0;
+BA_ "CommentTxJ" SG_ 548 CRUISE_MEMORY_SPEED "ｵｰﾄｸﾙｰｽﾞﾒﾓﾘｰ車速";
+BA_ "GenSigStartValue" SG_ 548 CRUISE_MEMORY_SPEED 0;
+BA_ "CommentTxJ" SG_ 548 FUEL_USED "消費燃料(積算値)
+Byte3:High byte
+Byte4:Low byte";
+BA_ "GenSigStartValue" SG_ 548 FUEL_USED 0;
+BA_ "CommentTxJ" SG_ 548 ATMOSPHERIC_PRESSURE "大気圧";
+BA_ "GenSigStartValue" SG_ 548 ATMOSPHERIC_PRESSURE 0;
+BA_ "CommentTxJ" SG_ 548 ENG_PD_PRESS "PD圧";
+BA_ "GenSigStartValue" SG_ 548 ENG_PD_PRESS 0;
+BA_ "PS" BO_ 500 5;
+BA_ "GenMsgCycleTime" BO_ 500 40;
+BA_ "GenMsgSendType" BO_ 500 0;
+BA_ "CommentTxJ" SG_ 500 CHECKSUM_1F4H "ID 1F4hの8byte情報中の全16nibbleの合計を
+0hとするSUM値";
+BA_ "GenSigStartValue" SG_ 500 CHECKSUM_1F4H 0;
+BA_ "CommentTxJ" SG_ 500 ALIVE_COUNTER_1F4H "CAN DATA更新カウンタ (1F4h)";
+BA_ "GenSigStartValue" SG_ 500 ALIVE_COUNTER_1F4H 0;
+BA_ "CommentTxJ" SG_ 500 COMP_TORQUE "ｺﾝﾌﾟﾚｯｻｰﾄﾙｸ情報";
+BA_ "GenSigStartValue" SG_ 500 COMP_TORQUE 0;
+BA_ "CommentTxJ" SG_ 500 METER_ODO_DATA "メータ積算距離
+Byte4:High byte
+Byte5:Middle byte
+Byte6:Low byte";
+BA_ "GenSigStartValue" SG_ 500 METER_ODO_DATA 0;
+BA_ "CommentTxJ" SG_ 500 B_CAN_FAULT_CODE "B_CAN故障時に故障ユニットを表現する
+bit0 Reserve
+bit1 1: B_CAN故障
+bit2 1:ヘッドライトSW故障
+bit3 1:ワイパーSW故障
+bit4 1:MICU UNIT故障
+bit5 1:DOOR SW UNIT故障
+bit6 1:A/C UNIT故障
+bit7 1:COMB UNIT故障";
+BA_ "GenSigStartValue" SG_ 500 B_CAN_FAULT_CODE 0;
+BA_ "CommentTxJ" SG_ 500 ILLUMI_CONTROL_STEP "ｲﾙﾐｺﾝSTEP数";
+BA_ "GenSigStartValue" SG_ 500 ILLUMI_CONTROL_STEP 63;
+BA_ "CommentTxJ" SG_ 500 THEATER_MODE "bit6 1:METERｼｱﾀｰﾓｰﾄﾞ";
+BA_ "GenSigStartValue" SG_ 500 THEATER_MODE 0;
+BA_ "CommentTxJ" SG_ 500 DIMMER_CANCEL "bit7 1:METER減光ｷｬﾝｾﾙ";
+BA_ "GenSigStartValue" SG_ 500 DIMMER_CANCEL 0;
+BA_ "CommentTxJ" SG_ 500 FUEL_WARN "残燃料警告灯
+bit0 １：警告灯点灯";
+BA_ "GenSigStartValue" SG_ 500 FUEL_WARN 0;
+BA_ "CommentTxJ" SG_ 500 ABS_WARN "ABS警告灯
+bit1 1:警告灯点灯";
+BA_ "GenSigStartValue" SG_ 500 ABS_WARN 0;
+BA_ "CommentTxJ" SG_ 500 A_C_TEMP_STATUS "温度表示
+bit2 0 : Cﾟ   1 : Fﾟ";
+BA_ "GenSigStartValue" SG_ 500 A_C_TEMP_STATUS 0;
+BA_ "CommentTxJ" SG_ 500 WIPER_STATUS "0:OFF
+1:間欠 
+2:LOW 
+3:HIGH(含むMIST)";
+BA_ "GenSigStartValue" SG_ 500 WIPER_STATUS 0;
+BA_ "CommentTxJ" SG_ 500 TURN_SIGNAL_STATUS "bit5 1:L-TURN ON
+bit6 1:R-TURN ON";
+BA_ "GenSigStartValue" SG_ 500 TURN_SIGNAL_STATUS 0;
+BA_ "CommentTxJ" SG_ 500 IDLE_PERM "bit7 1:アイドル高回転要求(0：アイドルダウン許可)";
+BA_ "GenSigStartValue" SG_ 500 IDLE_PERM 0;
+BA_ "PS" BO_ 448 5;
+BA_ "GenMsgCycleTime" BO_ 448 20;
+BA_ "GenMsgSendType" BO_ 448 0;
+BA_ "CommentTxJ" SG_ 448 CHECKSUM_1C0H "ID 1C0hの8byte情報中の全16nibbleの合計を
+0hとするSUM値";
+BA_ "GenSigStartValue" SG_ 448 CHECKSUM_1C0H 0;
+BA_ "CommentTxJ" SG_ 448 RR_WHEEL_SPEED "右後輪車速
+  MSB6.2 6.0 7.7          7.0 8.7  8.4LSB     
+      □□□  □□□□□□□□  □□□□";
+BA_ "GenSigStartValue" SG_ 448 RR_WHEEL_SPEED 0;
+BA_ "CommentTxJ" SG_ 448 RL_WHEEL_SPEED "左後輪車速
+ MSB4.1 4.0 5.7          5.0 6.7     6.3LSB     
+      □□   □□□□□□□□  □□□□□";
+BA_ "GenSigStartValue" SG_ 448 RL_WHEEL_SPEED 0;
+BA_ "CommentTxJ" SG_ 448 FR_WHEEL_SPEED "右前輪車速
+ MSB2.0 3.7          3.0 4.7      4.2LSB     
+     □  □□□□□□□□  □□□□□□";
+BA_ "GenSigStartValue" SG_ 448 FR_WHEEL_SPEED 0;
+BA_ "CommentTxJ" SG_ 448 FL_WHEEL_SPEED "左前輪車速
+ MSB1.7          1.0 2.7        2.1LSB     
+     □□□□□□□□  □□□□□□□";
+BA_ "GenSigStartValue" SG_ 448 FL_WHEEL_SPEED 0;
+BA_ "PS" BO_ 392 5;
+BA_ "GenMsgCycleTime" BO_ 392 10;
+BA_ "GenMsgSendType" BO_ 392 0;
+BA_ "CommentTxJ" SG_ 392 CHECKSUM_188H "ID 188hの8byte情報中の全16nibbleの合計を
+0hとするSUM値";
+BA_ "GenSigStartValue" SG_ 392 CHECKSUM_188H 0;
+BA_ "CommentTxJ" SG_ 392 ALIVE_COUNTER_188H "CAN DATA更新カウンタ (188h)";
+BA_ "GenSigStartValue" SG_ 392 ALIVE_COUNTER_188H 0;
+BA_ "CommentTxJ" SG_ 392 EAT_VER "CANﾃﾞｰﾀﾊﾞｰｼﾞｮﾝ情報を4BITで表現する";
+BA_ "GenSigStartValue" SG_ 392 EAT_VER 0;
+BA_ "CommentTxJ" SG_ 392 GEAR_POSITION_SELECTED "セレクトレバー位置
+　bit0 :P
+　bit1 :R
+　bit2 :N
+　bit3 :D5
+　bit4 :D4
+　bit5 :D3
+　bit6 :2
+　bit7 :1";
+BA_ "GenSigStartValue" SG_ 392 GEAR_POSITION_SELECTED 0;
+BA_ "CommentTxJ" SG_ 392 ODOFF_MODE_SWITCH_STATAUS "bit0 1:ODOFF MODE  0:NORMAL MODE";
+BA_ "GenSigStartValue" SG_ 392 ODOFF_MODE_SWITCH_STATAUS 0;
+BA_ "CommentTxJ" SG_ 392 AT_AC_STATUS "bit1 1:HAC ON要求  0:NORMAL MODE";
+BA_ "GenSigStartValue" SG_ 392 AT_AC_STATUS 0;
+BA_ "CommentTxJ" SG_ 392 SMODE_SWITCH_STATUS "bit3 1:SMODE  0:NORMAL MODE";
+BA_ "GenSigStartValue" SG_ 392 SMODE_SWITCH_STATUS 0;
+BA_ "CommentTxJ" SG_ 392 TRANSMISSION_MALFUNCTION "bit7 1:AT故障";
+BA_ "GenSigStartValue" SG_ 392 TRANSMISSION_MALFUNCTION 0;
+BA_ "CommentTxJ" SG_ 392 EAT_FAILURE_FOR_VSA "bit6 1:VSA制御を拒絶するＡＴ故障発生中";
+BA_ "GenSigStartValue" SG_ 392 EAT_FAILURE_FOR_VSA 0;
+BA_ "CommentTxJ" SG_ 392 TRANSMISSION_FAULT_D_IND "bit7 1:D点灯　0:D消灯";
+BA_ "GenSigStartValue" SG_ 392 TRANSMISSION_FAULT_D_IND 0;
+BA_ "CommentTxJ" SG_ 392 GEAR_POSITION_TARGET "次期変速目標ｷﾞｱｰ位置
+  0:Neutral
+  1:1st
+  2:2nd
+  3:3rd
+  4:4th
+  5:5th
+  6:Reverse";
+BA_ "GenSigStartValue" SG_ 392 GEAR_POSITION_TARGET 0;
+BA_ "CommentTxJ" SG_ 392 GEAR_POSITION_INDICATE "S-Matic用　シフト段表示
+　0:OFF
+  1:1st
+  2:2nd
+  3:3rd
+  4:4th
+  5:5th
+  7:OFF";
+BA_ "GenSigStartValue" SG_ 392 GEAR_POSITION_INDICATE 0;
+BA_ "CommentTxJ" SG_ 392 SNOW_MODE_SWITCH_STATUS "bit6 1:SNOW MODE  0:NORMAL MODE";
+BA_ "GenSigStartValue" SG_ 392 SNOW_MODE_SWITCH_STATUS 0;
+BA_ "CommentTxJ" SG_ 392 LOW_HOLD_SWITCH_STATUS "bit7 1:LOW HOLD MODE  0:NORMAL MODE";
+BA_ "GenSigStartValue" SG_ 392 LOW_HOLD_SWITCH_STATUS 0;
+BA_ "CommentTxJ" SG_ 392 GEAR_POSITION_ACTUAL "現在ｷﾞｱｰ位置
+  0:Neutral
+  1:1st
+  2:2nd
+  3:3rd
+  4:4th
+  5:5th
+  6:Reverse
+  7:変速中
+  9～F:RESERVE";
+BA_ "GenSigStartValue" SG_ 392 GEAR_POSITION_ACTUAL 0;
+BA_ "PS" BO_ 300 5;
+BA_ "GenMsgCycleTime" BO_ 300 10;
+BA_ "GenMsgSendType" BO_ 300 0;
+BA_ "CommentTxJ" SG_ 300 CHECKSUM_12CH "ID 12Chの8byte情報中の全16nibbleの合計を
+0hとするSUM値";
+BA_ "GenSigStartValue" SG_ 300 CHECKSUM_12CH 0;
+BA_ "CommentTxJ" SG_ 300 ALIVE_COUNTER_12CH "CAN DATA更新カウンタ (12Ch)";
+BA_ "GenSigStartValue" SG_ 300 ALIVE_COUNTER_12CH 0;
+BA_ "CommentTxJ" SG_ 300 BRAKE_PEDAL_PRESSED "bit0 1:ﾌﾞﾚｰｷｽｲｯﾁNOがﾌﾞﾚｰｷ中状態を示す  
+       (switch on)";
+BA_ "GenSigStartValue" SG_ 300 BRAKE_PEDAL_PRESSED 0;
+BA_ "CommentTxJ" SG_ 300 CRUISE_CANCEL_REASON "ｵｰﾄｸﾙｰｽﾞｷｬﾝｾﾙ理由
+bit1 1:SW操作によるﾏﾆｭｱﾙｷｬﾝｾﾙ";
+BA_ "GenSigStartValue" SG_ 300 CRUISE_CANCEL_REASON 0;
+BA_ "CommentTxJ" SG_ 300 CRUISE_STATUS "bit2 1:ｸﾙｰｽﾞ制御禁止を示す
+bit3 1:ｸﾙｰｽﾞ制御中";
+BA_ "GenSigStartValue" SG_ 300 CRUISE_STATUS 0;
+BA_ "CommentTxJ" SG_ 300 ENGINE_FAULT_CODE_MIL_STATUS "bit4 1:MIL点灯要求";
+BA_ "GenSigStartValue" SG_ 300 ENGINE_FAULT_CODE_MIL_STATUS 0;
+BA_ "CommentTxJ" SG_ 300 OIL_PRESURE_LOW "bit5 1:ｴﾝｼﾞﾝ油圧低下";
+BA_ "GenSigStartValue" SG_ 300 OIL_PRESURE_LOW 0;
+BA_ "CommentTxJ" SG_ 300 OBD2_CLEAR_FAULT_CODES "bit6 1:OBD2 FAULT CODE のｸﾘｱｰ要求";
+BA_ "GenSigStartValue" SG_ 300 OBD2_CLEAR_FAULT_CODES 0;
+BA_ "CommentTxJ" SG_ 300 PEDAL_STATUS "bit7 1:ｱｸｾﾙﾍﾟﾀﾞﾙが踏まれ非全閉";
+BA_ "GenSigStartValue" SG_ 300 PEDAL_STATUS 0;
+BA_ "CommentTxJ" SG_ 300 ENGINE_SPEED "エンジン回転数
+Byte5:High byte
+Byte6:Low byte";
+BA_ "GenSigStartValue" SG_ 300 ENGINE_SPEED 0;
+BA_ "CommentTxJ" SG_ 300 CRUISE_SPEED_REVISION "ｵｰﾄｸﾙｰｽﾞ用ﾒｰﾀｰ補正係数変動値";
+BA_ "GenSigStartValue" SG_ 300 CRUISE_SPEED_REVISION 0;
+BA_ "CommentTxJ" SG_ 300 THROTTLE_INFORMATION "加減速ﾌﾗｸﾞ";
+BA_ "GenSigStartValue" SG_ 300 THROTTLE_INFORMATION 0;
+BA_ "CommentTxJ" SG_ 300 ENGINE_INTAKE_AIR_TEMPERATURE "ｴﾝｼﾞﾝ吸気温";
+BA_ "GenSigStartValue" SG_ 300 ENGINE_INTAKE_AIR_TEMPERATURE 255;
+BA_ "CommentTxJ" SG_ 300 ENGINE_COOLANT_TEMPERATURE "ｴﾝｼﾞﾝ水温";
+BA_ "GenSigStartValue" SG_ 300 ENGINE_COOLANT_TEMPERATURE 255;
+BA_ "PS" BO_ 212 5;
+BA_ "GenMsgCycleTime" BO_ 212 10;
+BA_ "GenMsgSendType" BO_ 212 0;
+BA_ "CommentTxJ" SG_ 212 CHECKSUM_0D4H "ID 0D4hの8byte情報中の全16nibbleの合計を0hとするSUM値";
+BA_ "GenSigStartValue" SG_ 212 CHECKSUM_0D4H 0;
+BA_ "CommentTxJ" SG_ 212 ECON_AC "bit4 1:エアコンECON制御可能 ";
+BA_ "GenSigStartValue" SG_ 212 ECON_AC 0;
+BA_ "CommentTxJ" SG_ 212 ALIVE_COUNTER_0D4H "CAN DATA更新カウンタ (0D4h)";
+BA_ "GenSigStartValue" SG_ 212 ALIVE_COUNTER_0D4H 0;
+BA_ "CommentTxJ" SG_ 212 METER_DISPLAY_SPEED "METER指示車速
+Byte6:High byte
+Byte7:Low byte";
+BA_ "GenSigStartValue" SG_ 212 METER_DISPLAY_SPEED 0;
+BA_ "CommentTxJ" SG_ 212 FUEL_LEVEL_RAW "残燃料量(生A/D)";
+BA_ "GenSigStartValue" SG_ 212 FUEL_LEVEL_RAW 0;
+BA_ "CommentTxJ" SG_ 212 FUEL_LEVEL "残燃料量";
+BA_ "GenSigStartValue" SG_ 212 FUEL_LEVEL 0;
+BA_ "CommentTxJ" SG_ 212 HIDS_WARN "HIDS警告灯
+bit0 1:警告灯点灯";
+BA_ "GenSigStartValue" SG_ 212 HIDS_WARN 0;
+BA_ "CommentTxJ" SG_ 212 CVRS_WARN "追突軽減ﾌﾞﾚｰｷ警告灯
+bit1 1:警告灯点灯";
+BA_ "GenSigStartValue" SG_ 212 CVRS_WARN 0;
+BA_ "CommentTxJ" SG_ 212 AC_REQUEST "A/CからのCVT協調制御要求
+0:Ne-Hi
+1:Ne-Mid
+2:Ne-Lo";
+BA_ "GenSigStartValue" SG_ 212 AC_REQUEST 0;
+BA_ "CommentTxJ" SG_ 212 ECO_SW "ECO SW入力
+bit4 1:ECO SW ON";
+BA_ "GenSigStartValue" SG_ 212 ECO_SW 0;
+BA_ "CommentTxJ" SG_ 212 FOG_SWITCH_STATUS "bit5 1:FOG SWITCH ON";
+BA_ "GenSigStartValue" SG_ 212 FOG_SWITCH_STATUS 0;
+BA_ "CommentTxJ" SG_ 212 A_C_PRESS_SW "エアコンSW
+bit6 1:ON 0:OFF";
+BA_ "GenSigStartValue" SG_ 212 A_C_PRESS_SW 0;
+BA_ "CommentTxJ" SG_ 212 A_C_DEC_OK "エアコン減速協調OKフラグ　1:OK";
+BA_ "GenSigStartValue" SG_ 212 A_C_DEC_OK 0;
+BA_ "CommentTxJ" SG_ 212 AUTO_CRUISE_SWITCH_STATUS2 "
+  bit0 1:車間設定SWITCH A ON
+  bit1 1:車間設定SWITCH B ON
+  bit2 1:追突軽減ﾌﾞﾚｰｷ(A) SW ON
+  bit3 1:追突軽減ﾌﾞﾚｰｷ(B) SW ON";
+BA_ "GenSigStartValue" SG_ 212 AUTO_CRUISE_SWITCH_STATUS2 0;
+BA_ "CommentTxJ" SG_ 212 METER_VER "CANｿﾌﾄﾊﾞｰｼﾞｮﾝ情報を4BITで表現する";
+BA_ "GenSigStartValue" SG_ 212 METER_VER 0;
+BA_ "CommentTxJ" SG_ 212 LIGHT_STATUS "0:OFF
+1:SMALL LIGHT ON
+2:LOW BEAM ON
+3:HIGH BEAM ON";
+BA_ "GenSigStartValue" SG_ 212 LIGHT_STATUS 0;
+BA_ "CommentTxJ" SG_ 212 VSA_SWITCH_STATUS "bit2 1:ﾊﾟｰｷﾝｸﾞﾌﾞﾚｰｷ SW ON
+bit3 1:ﾌﾞﾚｰｷﾌﾙｰﾄﾞ ﾚﾍﾞﾙ SW ON
+bit4 1:VSA-OFF SW ON　　";
+BA_ "GenSigStartValue" SG_ 212 VSA_SWITCH_STATUS 0;
+BA_ "CommentTxJ" SG_ 212 AUTO_CRUISE_SWITCH_STATUS1 "bit5 1:MAIN SWITCH ON
+bit6 1:SET SWITCH ON 
+bit7 1:RESUME SWITCH ON 　";
+BA_ "GenSigStartValue" SG_ 212 AUTO_CRUISE_SWITCH_STATUS1 0;
+BA_ "PS" BO_ 200 5;
+BA_ "GenMsgCycleTime" BO_ 200 10;
+BA_ "GenMsgSendType" BO_ 200 0;
+BA_ "CommentTxJ" SG_ 200 CHECKSUM_0C8H "ID 0C8hの8byte情報中の全16nibbleの合計を
+0hとするSUM値";
+BA_ "GenSigStartValue" SG_ 200 CHECKSUM_0C8H 0;
+BA_ "CommentTxJ" SG_ 200 T_M_CPU_REWRITE_FLAG "T/M CPU書換え開始フラグ(1でT/M CPU書換え開始)";
+BA_ "GenSigStartValue" SG_ 200 T_M_CPU_REWRITE_FLAG 0;
+BA_ "CommentTxJ" SG_ 200 ALIVE_COUNTER_0C8H "CAN DATA更新カウンタ (0C8h)";
+BA_ "GenSigStartValue" SG_ 200 ALIVE_COUNTER_0C8H 0;
+BA_ "CommentTxJ" SG_ 200 REFERENCE_DISTANCE_TRAVELLED "走行距離";
+BA_ "GenSigStartValue" SG_ 200 REFERENCE_DISTANCE_TRAVELLED 0;
+BA_ "CommentTxJ" SG_ 200 TRANSMISSION_SPEED "トランスミッション車速
+Byte5:High byte
+Byte6:Low byte";
+BA_ "GenSigStartValue" SG_ 200 TRANSMISSION_SPEED 0;
+BA_ "CommentTxJ" SG_ 200 TRANSMISSION_SPEED_VNC "トランスミッション車速（VLVNCW/VLVEL1W）
+Byte1:High byte
+Byte2:Low byte";
+BA_ "GenSigStartValue" SG_ 200 TRANSMISSION_SPEED_VNC 0;
+BA_ "PS" BO_ 166 5;
+BA_ "GenMsgCycleTime" BO_ 166 10;
+BA_ "GenMsgSendType" BO_ 166 0;
+BA_ "CommentTxJ" SG_ 166 CHECKSUM_0A6H "ID 0A6hの8byte情報中の全16nibbleの合計を
+0hとするSUM値";
+BA_ "GenSigStartValue" SG_ 166 CHECKSUM_0A6H 0;
+BA_ "CommentTxJ" SG_ 166 ALIVE_COUNTER_0A6H "CAN DATA更新カウンタ (0A6h)";
+BA_ "GenSigStartValue" SG_ 166 ALIVE_COUNTER_0A6H 0;
+BA_ "CommentTxJ" SG_ 166 CRUISE_CAL_ENGBRK2 "ACC DR解除判定用ｴﾝｼﾞﾝﾌﾞﾚｰｷ推定値";
+BA_ "GenSigStartValue" SG_ 166 CRUISE_CAL_ENGBRK2 0;
+BA_ "CommentTxJ" SG_ 166 CRUISE_CAL_ENGBRK "ｵｰﾄｸﾙｰｽﾞｴﾝﾌﾞﾚ推定値";
+BA_ "GenSigStartValue" SG_ 166 CRUISE_CAL_ENGBRK 0;
+BA_ "CommentTxJ" SG_ 166 TARGET_THROTTLE "ｱｸｾﾙﾍﾟﾀﾞﾙ開度から算出される要求スロットル開度
+(ｵｰﾄｸﾙｰｽﾞ中はｵｰﾄｸﾙｰｽﾞ要求ｽﾛｯﾄﾙ開度）";
+BA_ "GenSigStartValue" SG_ 166 TARGET_THROTTLE 0;
+BA_ "CommentTxJ" SG_ 166 THROTTLE_POSITION "実ｽﾛｯﾄﾙ開度（最終目標スロットル開度)";
+BA_ "GenSigStartValue" SG_ 166 THROTTLE_POSITION 0;
+BA_ "CommentTxJ" SG_ 166 DRIVER_TARGET_THROTTLE "目標ｽﾛｯﾄﾙ開度(Gair立ち上がり補正後）";
+BA_ "GenSigStartValue" SG_ 166 DRIVER_TARGET_THROTTLE 0;
+BA_ "CommentTxJ" SG_ 166 VSA_ACKNOWLEDGE2 "VSA制御許可／禁止情報　
+  bit1 1:一時的なVSA F/C制御停止
+  bit2 1:VSA制御を拒絶する故障発生中";
+BA_ "GenSigStartValue" SG_ 166 VSA_ACKNOWLEDGE2 0;
+BA_ "CommentTxJ" SG_ 166 RECEIVE_ERROR_064 "CAN受信ｴﾗｰﾌﾗｸﾞ（ID:064h）  
+bit6 1: 受信ｴﾗｰあり ";
+BA_ "GenSigStartValue" SG_ 166 RECEIVE_ERROR_064 0;
+BA_ "CommentTxJ" SG_ 166 VSA_ACKNOWLEDGE1 "VSA燃料制御要求への応答     
+  0：燃料/点火制御無し(THL制御のみ)
+  1：点火リタード
+  2：全気筒F/C";
+BA_ "GenSigStartValue" SG_ 166 VSA_ACKNOWLEDGE1 0;
+BA_ "CommentTxJ" SG_ 166 COMPRESSOR_TRQ_UP "エアコンコンプレッサー容量増加要求フラグ";
+BA_ "GenSigStartValue" SG_ 166 COMPRESSOR_TRQ_UP 0;
+BA_ "CommentTxJ" SG_ 166 COMPRESSOR_TRQ_DOWN "エアコンコンプレッサー容量減少要求フラグ";
+BA_ "GenSigStartValue" SG_ 166 COMPRESSOR_TRQ_DOWN 0;
+BA_ "CommentTxJ" SG_ 166 COMPRESSOR_CLUTCH_STATUS "エアコンコンプレッサークラッチ状態
+bit7　１：クラッチ接続";
+BA_ "GenSigStartValue" SG_ 166 COMPRESSOR_CLUTCH_STATUS 0;
+BA_ "PS" BO_ 144 5;
+BA_ "GenMsgCycleTime" BO_ 144 20;
+BA_ "GenMsgSendType" BO_ 144 0;
+BA_ "CommentTxJ" SG_ 144 CHECKSUM_090H "ID 090hの8byte情報中の全16nibbleの合計を
+0hとするSUM値";
+BA_ "GenSigStartValue" SG_ 144 CHECKSUM_090H 0;
+BA_ "CommentTxJ" SG_ 144 WS_PULSE_CAPUTURED "車輪速ﾊﾟﾙｽ発生ﾌﾗｸﾞ
+bit4 1：車輪速ﾊﾟﾙｽあり";
+BA_ "GenSigStartValue" SG_ 144 WS_PULSE_CAPUTURED 0;
+BA_ "CommentTxJ" SG_ 144 ALIVE_COUNTER_090H "CAN DATA更新カウンタ (090h)";
+BA_ "GenSigStartValue" SG_ 144 ALIVE_COUNTER_090H 0;
+BA_ "CommentTxJ" SG_ 144 ACC_ACKNOWLEDGE "ACCﾌﾞﾚｰｷ制御禁止情報
+bit 0 1;ACCﾌﾞﾚｰｷ一時禁止（MT FET、MTﾌﾞﾗｼ、PAD温度上昇）
+bit 1 1:ACCﾌﾞﾚｰｷを拒絶する故障が発生
+bit 2 1:CVRSﾌﾞﾚｰｷ一時禁止
+bit 3 1:CVRSﾌﾞﾚｰｷを拒絶する故障が発生";
+BA_ "GenSigStartValue" SG_ 144 ACC_ACKNOWLEDGE 15;
+BA_ "CommentTxJ" SG_ 144 VSA_CONTROL_MODE_CVT "CVT協調用制御モード
+ 0:VSA normal
+ 1:TCS作動中
+ 2:予備
+ 3:予備";
+BA_ "GenSigStartValue" SG_ 144 VSA_CONTROL_MODE_CVT 0;
+BA_ "CommentTxJ" SG_ 144 VSA_REQUEST_CVT "CVT制御要求
+bit6 1:加圧中
+bit7 1:TCS作動許可状態";
+BA_ "GenSigStartValue" SG_ 144 VSA_REQUEST_CVT 0;
+BA_ "CommentTxJ" SG_ 144 VSA_STATUS2 "VSA状態信号2　　　　  
+ bit0 1:舵角センサー異常
+ bit1 1:ﾖｰﾚｰﾄセンサー異常
+ bit2 1:M/C圧センサー異常
+ bit3 1:車輪速センサーFR輪異常
+ bit4 1:車輪速センサーFL輪異常
+ bit5 1:車輪速センサーRR輪異常
+ bit6 1:車輪速センサーRL輪異常
+ bit7 1:L,Bモード";
+BA_ "GenSigStartValue" SG_ 144 VSA_STATUS2 0;
+BA_ "CommentTxJ" SG_ 144 VSA_STEERING_ANGLE "ﾊﾝﾄﾞﾙ操舵角(+:CCW、-:CW)
+  Byte3:High byte
+  Byte4:Low byte";
+BA_ "GenSigStartValue" SG_ 144 VSA_STEERING_ANGLE 32767;
+BA_ "CommentTxJ" SG_ 144 CURRENT_YAWRATE_LO "実ﾖｰﾚｲﾄ(+:CCW, -:CW)下位2bit";
+BA_ "GenSigStartValue" SG_ 144 CURRENT_YAWRATE_LO 0;
+BA_ "CommentTxJ" SG_ 144 CURRENT_YAWRATE_HI "実ﾖｰﾚｲﾄ(+:CCW, -:CW)上位8bit";
+BA_ "GenSigStartValue" SG_ 144 CURRENT_YAWRATE_HI 0;
+BA_ "PS" BO_ 100 5;
+BA_ "GenMsgCycleTime" BO_ 100 20;
+BA_ "GenMsgSendType" BO_ 100 0;
+BA_ "CommentTxJ" SG_ 100 CHECKSUM_064H "ID 064hの8byte情報中の全16nibbleの合計を
+0hとするSUM値";
+BA_ "GenSigStartValue" SG_ 100 CHECKSUM_064H 0;
+BA_ "CommentTxJ" SG_ 100 VSA_STATUS4 "VSA/ABS制御状態　　　　  
+ bit4 1:ABS制御中
+ bit5 1:VSA制御中";
+BA_ "GenSigStartValue" SG_ 100 VSA_STATUS4 0;
+BA_ "CommentTxJ" SG_ 100 ALIVE_COUNTER_064H "CAN DATA更新カウンタ (064h)";
+BA_ "GenSigStartValue" SG_ 100 ALIVE_COUNTER_064H 0;
+BA_ "CommentTxJ" SG_ 100 MASTER_CYLINDER_PRESSURE "ﾏｽﾀｰｼﾘﾝﾀﾞｰ液圧(ｾﾝｻA/D生値)
+ byte6:High byte
+ byte7:Low byte";
+BA_ "GenSigStartValue" SG_ 100 MASTER_CYLINDER_PRESSURE 2735;
+BA_ "CommentTxJ" SG_ 100 VSA_VER "CANｿﾌﾄﾊﾞｰｼﾞｮﾝ情報を4BITで表現する";
+BA_ "GenSigStartValue" SG_ 100 VSA_VER 0;
+BA_ "CommentTxJ" SG_ 100 VSA_SHIFT_REQUEST "VSAｼﾌﾄ制御要求
+  0 :VSAからのｼﾌﾄ制御要求なし．EATｵﾘｼﾞﾅﾙ制御
+  1 :ｼﾌﾄﾎｰﾙﾄﾞ要求
+  4～7: Reserved";
+BA_ "GenSigStartValue" SG_ 100 VSA_SHIFT_REQUEST 0;
+BA_ "CommentTxJ" SG_ 100 VSA_LAMP_STATUS "LAMP信号  
+ bit4 1:VSA 作動ランプ 点灯
+ bit5 1:VSA ワーニングランプ点灯
+ bit6 1:ABS ワーニングランプ点灯
+ bit7 1:BRAKE ワーニングランプ点灯";
+BA_ "GenSigStartValue" SG_ 100 VSA_LAMP_STATUS 0;
+BA_ "CommentTxJ" SG_ 100 VSA_STATUS1 "VSA状態信号1　　　　  
+ bit0 1:VSA,TCS制御中
+ bit1 1:ABS,EBD作動中
+ bit2 1:VSA,TCS故障中
+ bit3 1:ABS,EBD故障中
+ bit4 1:OBD2ｸﾘｱｰ要求に対するVSAｸﾘｱｰ実行応答
+ bit5 1:MIL点灯要求を伴うVSA故障発生
+ bit6 1:BA作動中
+ bit7 1:追突軽減ﾌﾞﾚｰｷ又はACCﾌﾞﾚｰｷ作動中";
+BA_ "GenSigStartValue" SG_ 100 VSA_STATUS1 0;
+BA_ "CommentTxJ" SG_ 100 TORQUE_DOWN_REQUEST_FUELCUT "燃料制御要求信号     
+  0：燃料/点火制御無し(THL制御のみ)
+  1：点火リタード
+  2：全気筒F/C
+　3-F：Reserve";
+BA_ "GenSigStartValue" SG_ 100 TORQUE_DOWN_REQUEST_FUELCUT 0;
+BA_ "CommentTxJ" SG_ 100 VSA_TORQUE_CONTROL_MODE "制御モード　　　　 
+  0：VSA非制御中(ﾉｰﾏﾙ)
+  1：MSR制御中
+　2：加速制御中
+  3：VSA/TCS禁止（VSA故障）";
+BA_ "GenSigStartValue" SG_ 100 VSA_TORQUE_CONTROL_MODE 0;
+BA_ "CommentTxJ" SG_ 100 VSA_REQUEST_THROTTLE "VSA要求スロットル開度
+ MSB1.7    　　      1.0   2.7 2.6 LSB     
+     □□□□□□□□    □□";
+BA_ "GenSigStartValue" SG_ 100 VSA_REQUEST_THROTTLE 1023;
+
